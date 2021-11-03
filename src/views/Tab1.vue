@@ -91,13 +91,42 @@
 
 <script lang="ts">
 import { IonSearchbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonLabel } from '@ionic/vue';
-import { actionSheetController } from '@ionic/vue';
+import { 
+  IonGrid,
+  IonRow,
+  IonCol,
+  IonList,
+  IonItem,
+  IonIcon,
+  IonChip,
+  IonCardContent,
+  actionSheetController 
+} from '@ionic/vue';
 import { defineComponent } from 'vue';
-import { folderOpen, trashOutline, caretForwardCircle, close, heart, trash, share, checkmarkCircle, pricetag, heartOutline, pricetagOutline } from 'ionicons/icons';
+import { folderOpen, trashOutline, close, heart, trash, share, checkmarkCircle, pricetag, heartOutline, pricetagOutline } from 'ionicons/icons';
 
 
 export default defineComponent({
-  components: { IonSearchbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonHeader, IonToolbar, IonTitle, IonContent, IonPage, IonLabel },
+  components: { 
+    IonGrid,
+    IonCol,
+    IonList,
+    IonItem,
+    IonIcon,
+    IonChip,
+    IonCardContent,
+    IonRow,
+    IonSearchbar, 
+    IonCard, 
+    IonCardHeader, 
+    IonCardSubtitle, 
+    IonCardTitle, 
+    IonHeader, 
+    IonToolbar, 
+    IonTitle, 
+    IonContent, 
+    IonPage, 
+    IonLabel },
   setup() {
     return { checkmarkCircle,
       heart,
