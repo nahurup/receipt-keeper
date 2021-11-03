@@ -1,0 +1,7 @@
+{
+  "name": "Receipt Keeper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
