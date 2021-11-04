@@ -78,7 +78,7 @@ export default  {
     async openToast() {
       const toast = await toastController
         .create({
-          message: 'El recibo ah sido guardado con exito.',
+          message: 'El recibo ha sido guardado con exito.',
           duration: 2000,
           position: 'bottom'
         })
